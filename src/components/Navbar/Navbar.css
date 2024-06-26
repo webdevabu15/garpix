@@ -173,9 +173,7 @@ nav{
 @media screen and (max-width: 688px) {
    nav{
      display: flex;
-   }
-   .nav-toggler{
-    display: flex !important;
+     padding: 10px;
    }
 
    .nav-links-group{
@@ -184,6 +182,16 @@ nav{
     animation-name: sekin;
     transform: translateX(-100%);
     border-radius: 20px 50px 80px 10px;
+   }
+
+   .logo{
+    display: flex;
+    align-items: center;
+   }
+
+   .nav-toggler{
+    display: flex !important;
+    align-items: center;
    }
 
     .nav-links-group2{
