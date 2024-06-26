@@ -22,6 +22,7 @@ import Person2 from "../../assets/person2.svg";
 import Person3 from "../../assets/person3.svg";
 import Person4 from "../../assets/person4.svg";
 import Person5 from "../../assets/person5.svg";
+import { useToggle } from '@mantine/hooks';
 
 import "./Main.css";
 
@@ -91,6 +92,8 @@ const Main = () => {
     },
   ];
 
+  const [value, toggle] = useToggle([0, 35]);
+  console.log(value);
   return (
     <div className="main">
       <div className="container">
@@ -103,8 +106,8 @@ const Main = () => {
           </div>
           <div className="Credit-thanks">
             <p>Начисляют спасибо</p>
-            <button className="thanks-btn">
-              <div></div>
+            <button className="thanks-btn"  onClick={() => toggle()}>
+              <div style={{ transform: `translateX(${value }px)`, transition: '0.3s' }}></div>
             </button>
             <p>Принимают спасибо</p>
           </div>

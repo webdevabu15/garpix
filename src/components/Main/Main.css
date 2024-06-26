@@ -297,6 +297,19 @@
         font-size:20px;
     }
 
+    .Credit-thanks{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Credit-thanks > p{
+        text-align: center;
+    }
+
+    .card-item{
+        width: 80%;
+    }
+
     .electronics-title {
         font-size: 20px;
         line-height: 20px;
