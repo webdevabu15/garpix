@@ -10,14 +10,14 @@ import {navLinkGroup,navLinkGroup2 } from "../constants.ts"
 function Demo() {
   const [opened, { toggle }] = useDisclosure();
   return (
-    <Menu shadow="md" width={200} >
+    <Menu shadow="md" width={300} >
       <Menu.Target>
         <Burger opened={opened} onClick={toggle} ria-label="Toggle navigation" className="nav-toggler"></Burger>
       </Menu.Target>
 
       <Menu.Dropdown>
         <Menu.Label>Application</Menu.Label>
-        <Flex direction={'column'}>
+        <Flex fz={'18px'} direction={'column'}>
             {navLinkGroup.map((link) => (
               <li className="nav-link-item">
                 <Link to={"/singlePage"}>

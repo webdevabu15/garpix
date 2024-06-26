@@ -323,6 +323,10 @@
         font-size: 12px;
     }
 
+    .more-wrapper{
+        margin-bottom: -70px;
+    }
+
     .more-bonuse-cards li > img{
        width: 50px;
     }
@@ -343,6 +347,10 @@
     .bonus-paragraph2{
         width: 130px !important;
         padding: 10px 0 !important;
+    }
+
+    .map{
+        margin-bottom: 60px !important;
     }
 
 }
