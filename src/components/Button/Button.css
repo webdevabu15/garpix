@@ -1,0 +1,17 @@
+.btn{
+    font-family: "Geometria";
+    font-size: 18px;
+    text-align: center;
+    width: auto;
+    height: 48px;
+    border: 1px solid #00D36D;
+    padding: 0 13px;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: 0.2s;
+}
+
+.btn:hover{
+    background-color: #00D36D;
+    color: #fff;
+}

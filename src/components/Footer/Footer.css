@@ -1,0 +1,125 @@
+footer {
+    margin-top: 40px;
+}
+
+.footer__wrapper {
+    display: flex;
+    gap: 148px;
+}
+
+.footer-title>h4 {
+    font-weight: bold;
+    font-family: "Geometria-Bold";
+}
+
+.footer-navigation {
+    display: flex;
+    max-width: 900px;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 0 30px;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.footer-bussines-logos {
+    display: flex;
+    align-items: center;
+    gap: 148px;
+    margin-top: 30px;
+}
+
+.footer-apps {
+    display: flex;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+.footer-btn {
+    width: 130px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 10px;
+    /* padding: 10px; */
+}
+
+.footer-btn>span>p {
+    font-size: 10px;
+    text-align: left;
+}
+
+.footer-btn>span>h4 {
+    font-size: 15px;
+    text-align: left;
+}
+
+.social-network {
+    display: flex;
+    gap: 10px;
+    padding-right: 50px;
+}
+
+.social-network>a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.social-network>a:first-child {
+    background-color: #ff9800;
+}
+
+.social-network>a:nth-child(2) {
+    background-color: #4064ad;
+}
+
+.social-network>a:nth-child(3) {
+    background-color: #4b76a8;
+}
+
+.social-network>a:last-child {
+    background: linear-gradient(49.12deg, #F1C800 6.62%, #F02501 37.84%, #C837AB 65%, #7C39AD 93.5%);
+
+}
+
+.footer-data{
+    display: flex;
+    gap: 80px;
+    margin-top: 30px;
+    color: gray;
+}
+
+.footer-data > p{
+    width: 872px;
+}
+
+@media screen and (max-width: 992px){
+    .footer__wrapper{
+        flex-direction: column;
+        gap: 0;
+    }
+    .footer-bussines-logos{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .social-network {
+        padding-right: 0px;
+    }
+    .footer-data{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-data > p{
+        width: 100%;
+    }
+}
