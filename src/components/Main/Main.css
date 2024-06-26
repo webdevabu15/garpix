@@ -340,4 +340,9 @@
         /* height: 20px; */
     }
 
+    .bonus-paragraph2{
+        width: 130px !important;
+        padding: 10px 0 !important;
+    }
+
 }

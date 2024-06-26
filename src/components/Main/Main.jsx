@@ -211,7 +211,7 @@ const Main = () => {
               <li><img src={Person3} alt="sberbank straxavaniya" /></li>
               <li><img src={Person4} alt="tripster" /></li>
             </ul>
-            <p className="bonus-paragraph">Персональное исходя из трат
+            <p className="bonus-paragraph2">Персональное исходя из трат
               <span/>
               <span/>
             </p>

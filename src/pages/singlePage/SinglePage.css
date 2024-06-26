@@ -182,6 +182,9 @@ main {
 }
 
 @media screen and (max-width: 597px) {
+    .apple-music{
+        padding: 20px;
+    }
     .music-title>h2 {
         font-size: 28px;
         font-weight: 500;
@@ -213,5 +216,9 @@ main {
 
     .description {
         margin-top: 44px;
+    }
+
+    .apple-cards__wrapper{
+        padding: 20px;
     }
 }
